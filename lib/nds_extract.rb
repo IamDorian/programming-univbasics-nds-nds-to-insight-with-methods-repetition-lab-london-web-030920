@@ -27,6 +27,7 @@ end
 def list_of_directors(source)
  list = 0
  i = 0 
+ binding.pry
  while i < source[:name].length do
    list += source[:name][i] 
  end
