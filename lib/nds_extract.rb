@@ -52,7 +52,7 @@ def total_gross(source)
   
   while i < list.length do 
       name = list[i] 
-      binding.pry
+      binding.pry dir_name[name]
   end
   
 end
