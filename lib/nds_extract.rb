@@ -46,8 +46,8 @@ def total_gross(source)
   # return the total
   total = 0
   i = 0 
-  while i < directors_database[:movies].length do
-  total +=  directors_database[:movies][i][:worldwide_gross]
+  while i < source[:movies].length do
+  total +=  source[:movies][i][:worldwide_gross]
   i += 1
 end
 total
