@@ -28,8 +28,9 @@ def list_of_directors(source)
  list = 0
  i = 0 
  while i < source[:name].length do
-       
+   list += source[:name][i] = stooges   
  end
+ list
 end
 
 def total_gross(source)
