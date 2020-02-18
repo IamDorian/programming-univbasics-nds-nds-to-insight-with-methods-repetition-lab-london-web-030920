@@ -25,7 +25,7 @@ def gross_for_director(d)
 end
 
 def list_of_directors(source)
- list = 0
+ list = []
  i = 0 
  
  while i < source.length do
