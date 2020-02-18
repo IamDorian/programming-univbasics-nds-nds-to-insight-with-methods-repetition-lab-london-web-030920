@@ -53,7 +53,7 @@ def total_gross(source)
   while i < list.length do 
       name = list[i] 
     total +=  dir_name[name]
-    i += 0
+    i += 1
   end
   
 end
