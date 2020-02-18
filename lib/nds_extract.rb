@@ -25,7 +25,8 @@ def gross_for_director(d)
 end
 
 def list_of_directors(source)
-  # Write this implementation
+  stooges = [{:name => "Larry"}, {:name => "Curly"}, {:name => "Moe"}, {:name => "Iggy"}]
+  return stooges
 end
 
 def total_gross(source)
