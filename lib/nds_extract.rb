@@ -27,8 +27,8 @@ end
 def list_of_directors(source)
    total = 0
   i = 0 
-  while i < director_data[:name].length do
-  total +=  director_data[:name][i][:worldwide_gross]
+  while i < directors_database[:name].length do
+  total +=  directors_database[:name][i][:worldwide_gross]
   i += 1
 end
   total
